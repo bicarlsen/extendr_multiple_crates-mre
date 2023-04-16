@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "myextendr/src/rust",
+    "my-extendr-lib"
+]
