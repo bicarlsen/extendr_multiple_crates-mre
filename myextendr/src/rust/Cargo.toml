@@ -9,4 +9,4 @@ name = 'myextendr'
 
 [dependencies]
 extendr-api = '*'
-my-extendr-lib = { path = "../my-extendr-lib" }
+my-extendr-lib = { path = "../../../my-extendr-lib" }
