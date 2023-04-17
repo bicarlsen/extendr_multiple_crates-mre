@@ -9,4 +9,9 @@ name = 'myextendr'
 
 [dependencies]
 extendr-api = '*'
+
+# Using relative path fails in `devtools::install`:
 my-extendr-lib = { path = "../../../my-extendr-lib" }
+
+# Using absolute path works:
+# my-extendr-lib = { path = "/absolute/path/to/extendr/test_workspace/my-extendr-lib" }
